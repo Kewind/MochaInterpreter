@@ -1,0 +1,14 @@
+int main() {
+    int x;
+
+    string s = toString(x);
+
+    print("s = " + s);
+
+    string p = "1";
+
+    int y = fromString(p);
+
+    print(y);
+
+}

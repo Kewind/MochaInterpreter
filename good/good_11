@@ -1,0 +1,26 @@
+void foo() {
+    print("42");
+}
+
+int main() {
+    int x = 10;
+
+    {
+        int x = 1;
+    }
+
+    void foo() {
+        int x = 5;
+
+        print("100");
+    }
+
+    foo();
+    print(x);
+
+    {
+        x = 5;
+    }
+
+    print(x);
+}

@@ -1,0 +1,9 @@
+void foo () {
+    int p = 10 + x;
+}
+
+int main() {
+    int x = 5;
+
+    foo();
+}

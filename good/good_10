@@ -1,0 +1,11 @@
+int main() {
+    int x = 10;
+
+    void foo() {
+        x = 5;
+    }
+
+    foo();
+
+    print(x);
+}

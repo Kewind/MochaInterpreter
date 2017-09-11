@@ -1,0 +1,21 @@
+int f(int x) {
+    return 42;
+}
+
+int g(int x) {
+    return f(x);
+}
+
+int h(int x) {
+    int f(int x) {
+        return 300;
+    }
+
+    return g(x);
+}
+
+int main() {
+    int i = 10;
+
+    print(h(i));
+}

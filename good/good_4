@@ -1,0 +1,23 @@
+int doubleInt(int x) {
+    return 2 * x;
+}
+
+void printTwoInts(int a, int b) {
+    print(a);
+    print(b);
+}
+
+int fib(int n) {
+    if (n <= 1)
+        return n;
+    return fib(n-1) + fib(n-2);
+}
+
+int main() {
+    print(fib(12));
+
+    int x = 10;
+    int y = doubleInt(x);
+
+    printTwoInts(x, y);
+}

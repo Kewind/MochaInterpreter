@@ -1,0 +1,16 @@
+int main() {
+    int a = 1;
+    int b = 2;
+    int c = 3;
+
+    print(a == b);
+    print((a + b) == c);
+
+    string s1 = "foo";
+    string s2 = "bar";
+    string s3 = "foobar";
+    string s4 = s1 + s2;
+
+    print(s1 == s2);
+    print(s3 == s4);
+}

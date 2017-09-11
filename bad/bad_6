@@ -1,0 +1,7 @@
+void foo(string s) {
+    print(s);
+}
+
+int main() {
+    foo("abc", 10);
+}

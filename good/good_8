@@ -1,0 +1,13 @@
+int main() {
+    int foo () {
+        void bar() {
+            print("barbarbar");
+        }
+
+        bar();
+
+        return 42;
+    }
+
+    print(foo());
+}

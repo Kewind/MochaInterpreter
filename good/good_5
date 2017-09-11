@@ -1,0 +1,21 @@
+int main () {
+    int i = 10;
+    int j = 5;
+    boolean b = true;
+
+    if (((i + j) == 15) && b)
+        print(b);
+
+    boolean b_neg = !b;
+
+    if (b_neg)
+        print("A tu nie powinno wejsc");
+
+    string s1, s2;
+
+    s1 = "a";
+    s2 = "b";
+
+    if ((s1 + s2) == "ab")
+        print(s1 + s2);
+}

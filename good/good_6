@@ -1,0 +1,31 @@
+int calculateGCD(int a, int b) {
+    int remainder;
+
+    while (b != 0) {
+        remainder = a % b;
+        a = b;
+        b = remainder;
+    }
+
+    return a;
+}
+
+int getPower(int x, int power) {
+    int ans = x;
+    for i = 1 to power do {
+        ans = ans * x;
+    }
+
+    return ans;
+}
+
+int main() {
+    int x = 4;
+    int y = 6;
+
+    int pow1 = getPower(x, y);
+    int pow2 = getPower(y, x);
+    int ans = calculateGCD(pow1, pow2);
+
+    print(ans);
+}

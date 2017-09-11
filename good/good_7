@@ -1,0 +1,15 @@
+void printFactors(int x) {
+    for i = 1 to x do
+        if (x % i == 0)
+        {
+            print(i);
+        }
+}
+
+int main() {
+    int p = 32;
+
+    print("Factors of " + toString(p));
+
+    printFactors(p);
+}
